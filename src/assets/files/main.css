@@ -1,0 +1,92 @@
+/******************
+
+DIRECTORY
+
+1. MISC
+2. NAV BAR
+3. TEXT ELEMENTS
+4. LEFT CONTAINER
+5. RIGHT CONTAINER
+6. BUTTONS
+
+*******************/
+
+/* 1 */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+
+/* 2 */
+li {
+    display: inline;
+}
+ul {
+    padding: 0px;
+    margin-top: 5%;
+    margin-left: 15%;
+    font: 400 105% "Inter", sans-serif;
+    word-spacing: 10px;
+}
+ul a {
+    color: black;
+    text-decoration: none;
+}
+#active {
+    font-weight: 500;
+}
+
+/* 3 */
+p {
+    padding-right: 25%;
+    font: 500 125% "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.568);
+    line-height: 35px;
+}
+
+/* 4 */
+.left-container {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background: url(/assets/images/clifford-VobvKmG-StA-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#left-image {
+    position: absolute;
+    bottom: 0px;
+    padding: 5%;
+}
+
+/* 5 */
+.right-container {
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+.right-container_contents {
+    position: absolute;
+    top: 50%;
+    left: 52.5%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+/* 6 */
+.button {
+    transition: .2s;
+    padding: 15px 30px;
+    font: 500 100% "Inter", sans-serif;
+}
+.outline {
+    border: 3px solid black;
+    background: transparent;
+}
+.outline:hover {
+    background: black;
+    color: white;
+}
