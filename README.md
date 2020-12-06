@@ -1,5 +1,5 @@
 <img src="https://coopertsoris.dev/assets/logoforcoffee.png" height="30">
-A free to use, example coffee shop website.
+A free to use, example coffee shop website made using pure CSS/HTML.
 
 ______
 
